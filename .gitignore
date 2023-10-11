@@ -11,4 +11,7 @@ pom.xml.asc
 .lein-plugins/
 .lein-failures
 .nrepl-port
+.cache/
 .cpcache/
+.lsp/
+output.calva-repl

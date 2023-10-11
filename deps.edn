@@ -1,0 +1,10 @@
+{:paths ["src/main/clojure"]
+ :deps {com.rpl/rama-helpers {:mvn/version "0.9.1"}}
+ :aliases
+ {:dev
+  {:extra-paths ["scratch"]
+   :extra-deps
+   {com.rpl/rama {:mvn/version "0.10.0"}}}}
+ :mvn/repos {"releases" {:url "https://nexus.redplanetlabs.com/repository/maven-public-releases"}}
+ 
+ }
