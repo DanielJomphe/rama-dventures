@@ -2,7 +2,7 @@
  :deps {com.rpl/rama-helpers {:mvn/version "0.9.1"}}
  :aliases
  {:dev
-  {:extra-paths ["scratch"]
+  {:extra-paths ["scratch", "src/dev/clojure"]
    :extra-deps
    {com.rpl/rama {:mvn/version "0.10.0"}
     com.hyperfiddle/rcf {:mvn/version "20220926-202227"

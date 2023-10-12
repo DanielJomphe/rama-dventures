@@ -1,0 +1,19 @@
+{
+    "calva.paredit.defaultKeyMap": "strict",
+    "calva.replConnectSequences": [
+        {
+            "name": "rama",
+            "projectType": "deps.edn",
+            "autoSelectForJackIn": true,
+            "autoSelectForConnect": true,
+            "menuSelections": {
+                "cljAliases": [
+                    "dev"
+                ]
+            }
+        }
+    ],
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "gitpod.openInStable.neverPrompt": true,
+}

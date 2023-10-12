@@ -6,7 +6,6 @@
   (:> (inc *a))
   (:> (dec *a)))
 
-(rcf/enable!)
 (rcf/tests
  
  (r/?<-
