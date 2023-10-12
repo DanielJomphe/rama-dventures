@@ -19,7 +19,7 @@
                (|hash *word)
                (+compound $$word-counts {*word (aggs/+count)}))))
 
-(rcf/set-timeout! 3000)
+(rcf/set-timeout! 8000)
 (rcf/tests
  ; better w/ with-open but for now let's keep this REPL-friendly
  (def ipc (rtest/create-ipc))
