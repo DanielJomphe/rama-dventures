@@ -1,14 +1,12 @@
 {:paths ["src/main/clojure"]
- :deps {com.rpl/rama-helpers {:mvn/version "0.9.1"}}
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        com.hyperfiddle/rcf {:mvn/version "20220926-202227"
+                             #_#_:git/url "https://github.com/hyperfiddle/rcf.git" ; https://github.com/hyperfiddle/rcf/commits/master
+                             #_#_:sha     "6d859fee548d5a2c80cf60ba5b0b4ff803e69f18"}
+        com.rpl/rama         {:mvn/version "0.10.0"}
+        com.rpl/rama-helpers {:mvn/version "0.9.1"}}
  :aliases
  {:dev
   {:extra-paths ["scratch", "src/dev/clojure"]
-   :extra-deps
-   {com.rpl/rama {:mvn/version "0.10.0"}
-    com.hyperfiddle/rcf {:mvn/version "20220926-202227"
-                         #_#_:git/url "https://github.com/hyperfiddle/rcf.git" ; https://github.com/hyperfiddle/rcf/commits/master
-                         #_#_:sha     "6d859fee548d5a2c80cf60ba5b0b4ff803e69f18"}
-    }}}
- :mvn/repos {"releases" {:url "https://nexus.redplanetlabs.com/repository/maven-public-releases"}}
- 
- }
+   :extra-deps {}}}
+ :mvn/repos {"releases" {:url "https://nexus.redplanetlabs.com/repository/maven-public-releases"}}}

@@ -1,3 +1,6 @@
 ; https://github.com/clj-kondo/clj-kondo/blob/master/doc/config.md#lint-a-custom-macro-like-a-built-in-macro
-{:lint-as {com.rpl.rama/?<- clj-kondo.lint-as/def-catch-all ; not quite good config
-           com.rpl.rama/deframaop clojure.core/defn}}
+{:linters {:use {:level :off}}
+ :lint-as {com.rpl.rama/?<- clj-kondo.lint-as/def-catch-all ; not quite good config
+           com.rpl.rama/defmodule clojure.core/defn
+           com.rpl.rama/deframaop clojure.core/defn
+           }}
