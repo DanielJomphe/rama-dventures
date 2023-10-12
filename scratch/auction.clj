@@ -155,8 +155,8 @@
 
  (def larry1 (foreign-select-one [(keypath larry-id) LAST FIRST] user-listings))
 
- (foreign-append! bid-depot (->Bid hank-id larry-id larry1 45))
- (foreign-append! bid-depot (->Bid artie-id larry-id larry1 50))
+ (foreign-append! bid-depot (->Bid hank-id    larry-id larry1 45))
+ (foreign-append! bid-depot (->Bid artie-id   larry-id larry1 50))
  (foreign-append! bid-depot (->Bid beverly-id larry-id larry1 48))
 
  ;; wait slightly more than the expiration time for the listing to allow notifications
