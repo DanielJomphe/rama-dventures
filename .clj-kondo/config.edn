@@ -1,7 +1,9 @@
-; https://github.com/clj-kondo/clj-kondo/blob/master/doc/config.md#lint-a-custom-macro-like-a-built-in-macro
-{:linters {:use {:level :off}}
+{:linters {:clojure-lsp/unused-public-var {:level :off}
+           :invalid-arity {:level :off}
+           :unresolved-symbol {:level :off}
+           :use {:level :off}}
+           ; https://github.com/clj-kondo/clj-kondo/blob/master/doc/config.md#lint-a-custom-macro-like-a-built-in-macro
  :lint-as {; not quite good config for rama but anyways for now...
            com.rpl.rama/?<- clj-kondo.lint-as/def-catch-all
            com.rpl.rama/defmodule clojure.core/defn
-           com.rpl.rama/deframaop clojure.core/defn
-           }}
+           com.rpl.rama/deframaop clojure.core/defn}}
