@@ -169,8 +169,7 @@
 
  (close! ipc)
 
- % := "Larry: [\"Auction for listing 0 finished with winner 2 for the amount 50\"]"
- % := "Hank: [\"You lost the auction for listing 0/0\"]"
- % := "Artie: [\"You won the auction for listing 0/0 for the amount 50\"]"
- % := "Beverly: [\"You lost the auction for listing 0/0\"]"
- )
+ % :=   "Larry: [\"Auction for listing 0 finished with winner 2 for the amount 50\"]"
+ % :=    "Hank: [\"You lost the auction for listing 0/0\"]"
+ % :=   "Artie: [\"You won the auction for listing 0/0 for the amount 50\"]"
+ % := "Beverly: [\"You lost the auction for listing 0/0\"]")
