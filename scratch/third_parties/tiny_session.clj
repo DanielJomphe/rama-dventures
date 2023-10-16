@@ -1,4 +1,4 @@
-(ns tiny-session
+(ns third-parties.tiny-session
   "From Jake Carson Zerrer on 2023-10-12 (1 day after RPL released the Clojure API)
    With permission:
 
