@@ -1,11 +1,11 @@
 (ns third-parties.tiny-session
-  "From Jake Carson Zerrer on 2023-10-12 (1 day after RPL released the Clojure API)
-   With permission:
+  "Copyright Jake Carson Zerrer 2023. Used with permission.
+   He wrote this just 1 day after RPL released the Clojure API!
 
    'Made a tiny rama session management module (that basically just rips off /
     simplifies the gallery profile_module) just to see what it feels like.'
    
-   https://clojurians.slack.com/archives/C7Q9GSHFV/p1697136881084169"
+   Discuss https://clojurians.slack.com/archives/C7Q9GSHFV/p1697136881084169"
   (:use [com.rpl.rama]
         [com.rpl.rama.path])
   (:require [com.rpl.rama :as r]
