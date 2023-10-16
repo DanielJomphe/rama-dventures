@@ -1,4 +1,4 @@
-(ns intro-article.op-two-emits
+(ns rpl-intro-article.op-two-emits
   "Copyright Red Planet Labs, 2023.
    RPL usually releases demos under the Apache License 2.0.
    See https://github.com/redplanetlabs/rama-demo-gallery/tree/master

@@ -1,4 +1,4 @@
-(ns intro-article.word-count
+(ns rpl-intro-article.word-count
   "Copyright Red Planet Labs, 2023.
    RPL usually releases demos under the Apache License 2.0.
    See https://github.com/redplanetlabs/rama-demo-gallery/tree/master
